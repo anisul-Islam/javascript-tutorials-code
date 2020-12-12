@@ -1,5 +1,8 @@
 // string related library functions
-// length, prompt()
+// length, prompt(), chartAt(5), 
+// string.toUpperCase(), string.toLowerCase()
+// string1.concat(string2)
+// string.slice(0,3)
 
 
 // getting the input from user as string
