@@ -1,3 +1,5 @@
+////you can run this program by using the command =>   node program3 .js
+
 // understanding variables
 // variables naming rules (collected from w3school)
 /*
