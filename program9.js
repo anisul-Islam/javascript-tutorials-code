@@ -1,4 +1,4 @@
-//Temperature converter
+//Temperature converter program
 
 var farn = parseFloat(prompt("Enter Fahrenheit = "));
 var cels = (farn - 32) * (5 / 9);
