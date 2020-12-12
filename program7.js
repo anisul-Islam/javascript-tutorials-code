@@ -1,3 +1,5 @@
+// //you can run this program by using the command =>   node program7 .js
+
 // Arithmetic operator -> +, -, *, / , %, ++, --, ** (exponentiation)
 // Assignment operator -> =, +=, -=, *=, /=, %=
 
