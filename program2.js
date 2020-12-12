@@ -4,6 +4,15 @@
 // data type -> string, number (int,float,double), boolean, object. use typeof() to check the data type
 // comment -> single line comment, double line comment
 
+
+//This is a single line comment
+
+/*
+This is 
+multiple line
+comment
+*/
+
 console.log(typeof (123));
 console.log(typeof (123.5));
 console.log(typeof ("123"));
