@@ -1,3 +1,4 @@
+//you can run this program by using the command =>   node program4 .js
 // string  -> a sequnces of characters
 // string concatenation -> adding multiple strings
 

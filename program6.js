@@ -1,3 +1,5 @@
+//you can run this program by using the command =>   node program6 .js
+
 var number = 20;
 console.log(typeof(number))
 
