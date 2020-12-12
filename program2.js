@@ -18,3 +18,14 @@ console.log(typeof (123.5));
 console.log(typeof ("123"));
 console.log(typeof (true));
 console.log(typeof (false));
+
+
+//collected from w3school's website
+var car;    // Value is undefined, type is undefined 
+var car = "";    // The value is "", the typeof is "string"
+
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+person = null;    // Now value is null, but type is still an object
+
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+person = undefined;   // Now both value and type is undefined
