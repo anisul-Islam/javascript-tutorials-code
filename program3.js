@@ -11,6 +11,14 @@
     Reserved words (like JavaScript keywords) cannot be used as names
 
 */
+
+/*
+Underscore:first_name, last_name
+
+Upper Camel Case (Pascal Case):FirstName, LastName
+
+Lower Camel Case:firstName, lastName
+*/
 // printing student details
 // variable can be declared first and then initialize
 // var name, age, cgpa, lineBreak;
