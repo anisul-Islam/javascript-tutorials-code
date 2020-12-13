@@ -1,4 +1,4 @@
-// a program that will find a letter is vowel or consonant
+// A program that will find a letter is vowel or consonant
 var letter = prompt("Enter a letter : ");
 
 // convert any uppercase input into lower cause we set only lowercase letter in condition
