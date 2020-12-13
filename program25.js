@@ -1,4 +1,9 @@
-// Math Object
+// Math Object program
+// Math.PI, Math.abs()
+// Math.sin(), Math.cos() ...
+// Math.pow(x,y), Math.sqrt()
+// Math.floor(), Math.ceil(), Math.round(), 
+// Math.min(), Math.max()
 
 console.log(Math.sqrt(25));
 
