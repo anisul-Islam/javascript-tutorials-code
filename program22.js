@@ -1,4 +1,4 @@
-// Array methods
+// Array methods program
 // you have already learned about pop(),push(),concat()
 // shift(), unshift(), splice(pos,noe,ele1,ele2..), splice(start,end), slice(4) 
 // sort(), reverse()
