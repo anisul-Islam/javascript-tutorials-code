@@ -1,6 +1,3 @@
-// DOM -> Document Object Model
-// Using DOM We can Find / get, change, add, or delete HTML elements.
-
 // How to change HTML Elements  (collected from W3School website)
 // element.innerHTML =  new html content ->	Change the inner HTML of an element
 // element.attribute = new value 	-> Change the attribute value of an HTML element
