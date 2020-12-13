@@ -32,7 +32,38 @@ var result = text4.slice(0, 2);
 document.write(result + "<br/>");
 
 
+//collected from w3school
 var x = new String("John");             
 var y = new String("John");
 
 // (x === y) is false because x and y are different objects
+
+
+/*
+There are 3 methods for extracting a part of a string:
+    slice(start, end)
+    substring(start, end)
+    substr(start, length)
+
+
+1) slice can take positive and negative parameter. 
+    If a parameter is negative, the position is counted from the end of the string.
+    
+    var str = "Apple, Banana, Kiwi";
+    var res = str.slice(-12, -6); // output - Banana
+
+    var str = "Apple, Banana, Kiwi";
+    var res = str.slice(7); // output - Banana, Kiwi
+
+
+2) substring() is similar to slice().
+    The difference is that substring() cannot accept negative indexes.
+    var str = "Apple, Banana, Kiwi";
+    var res = str.substring(7, 13); // output - Banana
+
+
+3)substr() is similar to slice().
+    The difference is that the second parameter specifies the length of the extracted part.
+    var str = "Apple, Banana, Kiwi";
+    var res = str.substr(7, 6); // output - Banana 
+*/
