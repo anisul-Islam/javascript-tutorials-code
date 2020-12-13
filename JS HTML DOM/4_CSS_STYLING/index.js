@@ -4,9 +4,8 @@ var h1 = document.querySelector("h1");
 h1.innerHTML = "hiiii"
 console.log(h1)
 
-//add style
+//add css style
 h1.classList.add('heading-style')
 
-
-//removing style
+//removing css style
 // h1.classList.remove('heading-style')
