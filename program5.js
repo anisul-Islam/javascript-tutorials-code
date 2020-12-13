@@ -30,3 +30,9 @@ document.write(text3 + "<br/>");
 var text4 = "hello";
 var result = text4.slice(0, 2);
 document.write(result + "<br/>");
+
+
+var x = new String("John");             
+var y = new String("John");
+
+// (x === y) is false because x and y are different objects
