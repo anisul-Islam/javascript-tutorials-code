@@ -4,7 +4,7 @@
 var num1 = parseInt(prompt("Enter first numebr : "));
 var num2 = parseInt(prompt("Enter second numebr : "));
 
-// first method
+// first method using only if
 if (num1 > num2) {
     console.log("Large Number is : " + num1);
 }
