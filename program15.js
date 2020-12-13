@@ -1,3 +1,4 @@
+//A program to demonstrate while loop
 // while loop syntax
 var i = 1;
 while (i <= 10) {
