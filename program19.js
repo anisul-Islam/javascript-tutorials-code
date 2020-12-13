@@ -1,4 +1,4 @@
-// Function
+// Function example
 
 // creating function without parameter
 function message() {
