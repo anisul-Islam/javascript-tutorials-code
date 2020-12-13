@@ -31,6 +31,7 @@ var student3 = {
     lang: ["Bengali", "Urdu"],
 }
 // printing object property's value
+// object properties can be accessed in two ways: objectName.propertyName or objectName["propertyName"]
 console.log(student1.name);
 console.log(student1[name]);
 console.log(student1);
