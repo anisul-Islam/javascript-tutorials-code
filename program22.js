@@ -1,6 +1,6 @@
 // Array methods program
 // you have already learned about pop(),push(),concat()
-// shift(), unshift(), splice(pos,noe,ele1,ele2..), splice(start,end), slice(4) 
+// shift(), unshift(), splice(pos,noe,ele1,ele2..), splice(start INDEX,end INDEX), slice(4) 
 // sort(), reverse()
 
 var names = ["Mina","Rabeya","Kolpona","Anis"];
