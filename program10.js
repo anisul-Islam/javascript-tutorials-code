@@ -1,4 +1,5 @@
-// Relational Operator : >, >=, <, <=, ==, ===, !=, !==
+// Relational Operator : >, >=, <, <=,
+//  ==(for checking only value), ===(for checking value and data type), !=, !==
 // Logical Operator : &&, ||, !
 
 // Relational and logical operators return true / false
@@ -16,6 +17,8 @@ console.log(num1 <= num2)
 console.log(num1 == num4)
 console.log(num1 != num4)
 console.log(num1 === num3)
+console.log("num2 === num3 : "+ (num2 === num3))
+console.log("num2 == num3 : "+ (num2 == num3))
 console.log(num1 !== num3)
 
 
