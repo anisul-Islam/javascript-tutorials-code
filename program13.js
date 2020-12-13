@@ -1,7 +1,11 @@
 // A program to understand switch -> digit spelling program
 // 0 -> Zero
 // 1 -> One
-// .......
+// 2 -> Two
+// ...
+// ...
+// 9 -> Nine
+// for any number program will display "not a digit"
 
 var digit = parseInt(prompt("Enter a digit : "));
 switch (digit) {
