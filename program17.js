@@ -1,4 +1,4 @@
-// break and continue keyword
+// break and continue keyword program
 
 // The break statement "jumps out" of a loop or switch.
 for (var i = 1; i <= 100; i++) {
