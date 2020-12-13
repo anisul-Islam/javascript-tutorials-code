@@ -1,3 +1,5 @@
+//A program to demonstrate for loop
+
 // for loop syntax
 for (var i = 1; i <= 10; i++) {
     document.write("Bangladesh" + "<br>");
