@@ -1,4 +1,9 @@
 // object program example
+// what is Object?
+// How to create an object?
+// How to access object properties?
+// Constructor, this keyword
+// function inside constructor
 
 // declaring variables and using them
 var name = "Anisul Islam";
