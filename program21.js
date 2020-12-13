@@ -1,4 +1,4 @@
-// Loop in array
+// Loop in array program
 
 // declaring an array that has 5 elements
 var num = [10, 20, 30, 40, 50]
