@@ -1,3 +1,4 @@
+// A program to demonstrate do while loop
 // do while loop syntax
 var i = 1;
 do {
