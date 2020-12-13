@@ -1,3 +1,4 @@
+//sorting program
 // The sort() method sorts an array alphabetically: 
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.sort(); // Sorts the elements of fruits 
