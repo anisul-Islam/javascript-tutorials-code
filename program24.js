@@ -1,4 +1,4 @@
-// object
+// object program example
 
 // declaring variables and using them
 var name = "Anisul Islam";
