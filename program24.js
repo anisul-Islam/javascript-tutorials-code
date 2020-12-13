@@ -32,6 +32,7 @@ var student3 = {
 }
 // printing object property's value
 console.log(student1.name);
+console.log(student1[name]);
 console.log(student1);
 
 
