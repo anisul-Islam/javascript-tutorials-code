@@ -1,14 +1,14 @@
 // myMoulde.js is a module contain variable called warningMessage
-export let message = 'Hi';
+export let text = 'Hi';
 
-export function getMessage() {
-  return message;
+export function getText() {
+  return text;
 }
 
-export function setMessage(msg) {
-  message = msg;
+export function setText(txt) {
+  text = txt;
 }
 
 
-// export {message as text}
-// import {message as text} from './myModule.js'
+// export {text as message}
+// import {text as message} from './myModule.js'

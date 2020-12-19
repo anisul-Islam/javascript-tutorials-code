@@ -1,7 +1,7 @@
-import {message, getMessage, setMessage} from './myModule.js'
+import {text, getText, setText} from './myModule.js'
 
 
-console.log(message)
-setMessage("I love es6")
-console.log(getMessage())
-console.log(message)
+console.log(text)
+setText("I love es6")
+console.log(getText())
+console.log(text)
