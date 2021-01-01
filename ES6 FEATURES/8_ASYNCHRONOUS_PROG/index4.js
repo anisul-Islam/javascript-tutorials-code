@@ -1,52 +1,53 @@
-// synchronous vs asynchronous
-// callback
-// promise
-// async await
-
-// promise chaining
-
-console.log("starting the program");
-
-const taskOne = new Promise((resolve, reject) => {
-  let completedTaskOne = true;
-  if (completedTaskOne) {
-    const task1Text = "completed task1";
-    resolve(task1Text);
-  } else {
-    reject(new Error("not completed task1"));
-  }
-});
-
-const taskTwo = () => {
-  const task2Text = "completed task2";
-  return Promise.resolve(task2Text);
+// promise, promise chaining, async await
+console.log("welcome");
+const taskOne = () => {
+  return new Promise((resolve, reject) => {
+    resolve("task 1 is completed");
+  });
 };
-
+const taskTwo = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("task 2 is completed");
+    }, 2000);
+  });
+};
 const taskThree = () => {
-  const task3Text = "completed task3";
-  return Promise.resolve(task3Text);
+  return new Promise((resolve, reject) => {
+    reject("task 3 is not completed");
+  });
 };
 const taskFour = () => {
-  const task4Text = "completed task4";
-  return Promise.resolve(task4Text);
+  return new Promise((resolve, reject) => {
+    resolve("task 4 is completed");
+  });
 };
 
-taskOne
-  .then((response) => {
-    console.log(response);
-  })
-  .then(taskTwo)
-  .then((response) => {
-    console.log(response);
-  })
-  .then(taskThree)
-  .then((response) => {
-    console.log(response);
-  })
-  .then(taskFour)
-  .then((response) => {
-    console.log(response);
-  })
-  .catch((err) => console.log(err));
+// taskOne()
+//   .then((res) => console.log(res))
+//   .then(taskTwo)
+//   .then((res) => console.log(res))
+//   .then(taskThree)
+//   .then((res) => console.log(res))
+//   .then(taskFour)
+//   .then((res) => console.log(res))
+//   .catch((err) => console.log(err));
 
-console.log("ending the program");
+const callAllTasks = async () => {
+  try {
+    const t1 = await taskOne();
+    console.log(t1);
+    const t2 = await taskTwo();
+    console.log(t2);
+    const t3 = await taskThree();
+    console.log(t3);
+    const t4 = await taskFour();
+    console.log(t4);
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+callAllTasks();
+
+console.log("bye");
