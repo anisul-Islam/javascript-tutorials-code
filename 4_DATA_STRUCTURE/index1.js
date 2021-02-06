@@ -1,4 +1,4 @@
-// Array
+// Array example
 let demoArray = ["Anisul Islam", 3.92, null, true, undefined, { name: "anis" }];
 console.log(demoArray);
 
