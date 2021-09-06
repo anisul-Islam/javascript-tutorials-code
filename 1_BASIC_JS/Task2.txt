@@ -1,4 +1,5 @@
 /* Program for Task 2*/
+/* try this as internal js*/
 // A program to understand string library functions
 
 //getting firstname and lastname from user
