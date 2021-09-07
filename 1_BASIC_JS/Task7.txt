@@ -1,4 +1,5 @@
 // creating a simple calculator that will add, sub, mul, div
+// Thanks for trying hard
 function add(num1, num2) {
   return num1 + num2;
 }
