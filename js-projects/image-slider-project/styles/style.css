@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(108, 177, 177);
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  margin: 0;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+.slide-container {
+  position: relative;
+  max-width: 100%;
+}
+button {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  border: none;
+  font-size: 2rem;
+  background-color: transparent;
+}
+.slide-img {
+  width: 400px;
+  height: 400px;
+  margin: 0 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
