@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(108, 177, 177);
+  background-color: rgb(192, 77, 77);
 }
 .container {
   width: 1000px;
@@ -31,7 +31,7 @@ button {
 }
 .slide-img {
   width: 400px;
-  height: 400px;
+  height: 450px;
   margin: 0 2rem;
 }
 
