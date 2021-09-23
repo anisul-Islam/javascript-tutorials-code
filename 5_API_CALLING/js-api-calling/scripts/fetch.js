@@ -9,6 +9,7 @@
 // - returned promise can only handle network error
 // - does not support all the older browser
 
+// method for making HTTP Request
 const makeRequest = async (url, config) => {
   const res = await fetch(url, config);
   if (!res.ok) {
