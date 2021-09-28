@@ -1,9 +1,10 @@
 // Array methods program
+
 // you have already learned about pop(),push(),concat()
-// shift(), unshift(), splice(pos,noe,ele1,ele2..), splice(start INDEX,end INDEX), slice(4) 
+// shift(), unshift(), splice(pos,noe,ele1,ele2..), splice(start INDEX,end INDEX), slice(4)
 // sort(), reverse()
 
-var names = ["Mina","Rabeya","Kolpona","Anis"];
+var names = ["Mina", "Rabeya", "Kolpona", "Anis"];
 console.log(names);
 
 // // shift opposite of pop
@@ -22,7 +23,7 @@ console.log(names);
 // names.splice(1,2);
 // console.log(names);
 
-// slice 
+// slice
 // var newArray = names.slice(1);
 // console.log(newArray)
 // console.log(names)
@@ -32,12 +33,7 @@ console.log(names);
 // console.log(sortedNames)
 
 var numbers = [20, 5, 25, 45, 1];
-numbers.sort(function(a,b){
-    return b-a;
+numbers.sort(function (a, b) {
+  return b - a;
 });
-console.log(numbers)
-
-
-
-
-
+console.log(numbers);
