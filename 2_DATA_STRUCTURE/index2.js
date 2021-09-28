@@ -1,3 +1,4 @@
+// object in js
 // Object -> key, value pair
 const tutorials = {
   html: 32,
