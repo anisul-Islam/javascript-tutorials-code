@@ -1,9 +1,7 @@
-//you can run this program by using the command =>   node program4 .js
-
+//you can run this program by using the command =>   node program4 .js or adding this file in html
 
 // string  -> a sequnces of characters
 // string concatenation -> adding multiple strings
-
 
 var fName = "Anisul";
 var lName = "Islam";
@@ -12,8 +10,7 @@ var lName = "Islam";
 var fullName = fName + " " + lName;
 console.log(fullName);
 console.log("Today is" + " a " + "beautiful day");
-console.log("My name is " + fullName)
-
+console.log("My name is " + fullName);
 
 var num1 = 20;
 var num2 = 30;
