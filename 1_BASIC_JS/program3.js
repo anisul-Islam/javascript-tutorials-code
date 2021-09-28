@@ -1,4 +1,4 @@
-////you can run this program by using the command =>   node program3 .js
+////you can run this program by using the command =>   node program3 .js or add the file to html
 
 // understanding variables
 // variables naming rules (collected from w3school)
@@ -34,7 +34,6 @@ var lineBreak = "<br/>";
 
 // variable can be declared and initialize at the same time
 // var name = "Anisul Islam",age = 29,cgpa = 3.92,lineBreak = "<br/>"
-
 
 document.write("Name : " + name + lineBreak);
 document.write("Age : " + age + lineBreak);
