@@ -1,13 +1,12 @@
 // string related library functions
-// length, prompt(), chartAt(5), 
+// length, prompt(), chartAt(5),
 // string.toUpperCase(), string.toLowerCase()
 // string1.concat(string2)
 // string.slice(0,3)
 
-
 // getting the input from user as string
 var text = prompt("Enter your name : ");
-document.write("Your name : " + text + "<br/>")
+document.write("Your name : " + text + "<br/>");
 
 //finding the length of a string
 var len = text.length;
@@ -31,13 +30,11 @@ var text4 = "hello";
 var result = text4.slice(0, 2);
 document.write(result + "<br/>");
 
-
 //collected from w3school
-var x = new String("John");             
+var x = new String("John");
 var y = new String("John");
 
 // (x === y) is false because x and y are different objects
-
 
 /*
 There are 3 methods for extracting a part of a string:
