@@ -1,5 +1,3 @@
-// Array program
-
 // Array -> is a collection of variables
 // Array VS Object -> arrays use numbered indexes. but, objects use named indexes.
 
@@ -19,16 +17,15 @@ console.log("students = " + students);
 console.log("studnet at 2 index : " + students[2]);
 
 //finding the length of an array
-console.log("Length of student array : " + students.length)
-
+console.log("Length of student array : " + students.length);
 
 //pusing an element in array
 students.push("musa");
-console.log("after pushing students = " + students)
+console.log("after pushing students = " + students);
 
 //pusing an element in array
 students.pop("musa");
-console.log("after poping students = " + students)
+console.log("after poping students = " + students);
 
 // concatenation of arrays
 var num1 = [10, 20];
