@@ -4,31 +4,31 @@
 var num1 = parseInt(prompt("Enter first numebr : "));
 var num2 = parseInt(prompt("Enter second numebr : "));
 
-// first method using only if
+// first method - using only if
 if (num1 > num2) {
-    console.log("Large Number is : " + num1);
+  console.log("Large Number is : " + num1);
 }
 if (num1 < num2) {
-    console.log("Large Number is : " + num2);
+  console.log("Large Number is : " + num2);
 }
 if (num1 == num2) {
-    console.log("Equal numbers");
+  console.log("Equal numbers");
 }
 
-// second method, more efficient than first method
+// second method - more efficient than first method
 if (num1 > num2) {
-    console.log("Large Number is : " + num1);
+  console.log("Large Number is : " + num1);
 } else if (num1 < num2) {
-    console.log("Large Number is : " + num2);
+  console.log("Large Number is : " + num2);
 } else if (num1 == num2) {
-    console.log("Equal numbers");
+  console.log("Equal numbers");
 }
 
-// third method, more efficient than first and second method
+// third method - more efficient than first and second method
 if (num1 > num2) {
-    console.log("Large Number is : " + num1);
+  console.log("Large Number is : " + num1);
 } else if (num1 < num2) {
-    console.log("Large Number is : " + num2);
+  console.log("Large Number is : " + num2);
 } else {
-    console.log("Equal numbers");
+  console.log("Equal numbers");
 }
