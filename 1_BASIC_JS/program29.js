@@ -1,20 +1,22 @@
+// date object
+
 var date = new Date();
-console.log(date)
+console.log(date);
 
 var year = date.getFullYear();
-console.log(year)
+console.log(year);
 
 var month = date.getMonth();
-console.log(month)
+console.log(month);
 
 var currentDate = date.getDate();
-console.log(currentDate)
+console.log(currentDate);
 
 var currentDay = date.getDay();
-console.log(currentDay)
+console.log(currentDay);
 
 var currentHour = date.getHours();
-console.log(currentHour)
+console.log(currentHour);
 
 var currentMinutes = date.getMinutes();
-console.log(currentMinutes)
+console.log(currentMinutes);
