@@ -19,6 +19,8 @@ console.log('3500 euros');
 console.log('3200 euros');
 ```
 
+
+
 ##  Personal Budget Tracker Challenge (Phase 2 - Variables, Data Types)
 
 ```js
@@ -49,6 +51,8 @@ console.log(userName);
 console.log(income);
 console.log(expenses);
 ```
+
+
 
 ## Personal Budget Tracker Challenge (Phase 3 - Operators: calculate the remaining balance)
 
@@ -87,6 +91,8 @@ console.log('💸 Total Expenses: $' + expenses);
 console.log('🟢 Remaining Balance: $' + balance);
 
 ```
+
+
 
 ## Personal Budget Tracker Challenge (Phase 4 - Arithmetic operators)
 
@@ -147,6 +153,8 @@ console.log('🟢 Remaining Balance: $' + balance);
 console.log('💾 Savings (20% of balance): $' + savings);
 
 ```
+
+
 
 ## Personal Budget Tracker Challenge (Phase 5 - conditional control statement)
 
