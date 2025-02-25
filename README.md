@@ -18,6 +18,7 @@ console.log('Anisul Islam');
 console.log('3500 euros');
 console.log('3200 euros');
 ```
+<br/> <br/>
 
 
 
@@ -51,6 +52,7 @@ console.log(userName);
 console.log(income);
 console.log(expenses);
 ```
+<br/> <br/>
 
 
 
@@ -91,6 +93,7 @@ console.log('💸 Total Expenses: $' + expenses);
 console.log('🟢 Remaining Balance: $' + balance);
 
 ```
+<br/> <br/>
 
 
 
@@ -153,6 +156,7 @@ console.log('🟢 Remaining Balance: $' + balance);
 console.log('💾 Savings (20% of balance): $' + savings);
 
 ```
+<br/> <br/>
 
 
 
@@ -246,3 +250,4 @@ if (overspendingMessage) {
 }
 
 ```
+<br/> <br/>
