@@ -559,6 +559,11 @@ function displayResults(
   if (overspendingMessage) {
     console.log(overspendingMessage);
   }
+
+  console.log('📝 Expense Breakdown:');
+  for (let index = 0; index < expenses.length; index++) {
+    console.log(`Expense ${index + 1} : $${expenses[index]}`);
+  }
 }
 
 function checkOverSpending(income, totalExpenses) {
